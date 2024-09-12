@@ -150,4 +150,4 @@ Then, you will see the results (will be saved in the file 'attack.txt').
 
 ## Test the DynaMO
 
-Use the file in the code112/DynaMO_build to replace the files in the ModelObfuscator's source projects. It applies our DynaMO algorithm. Then, redo the test process in the last section to see the defending performance.
+Use the file in the DynaMO/DynaMO_build to replace the files in the ModelObfuscator's source projects. It applies our DynaMO algorithm. Then, redo the test process in the last section to see the defending performance.
