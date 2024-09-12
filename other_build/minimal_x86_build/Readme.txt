@@ -1,0 +1,1 @@
+We use this folder to compile the tflite using CMake.
