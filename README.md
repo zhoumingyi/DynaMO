@@ -150,4 +150,19 @@ Then, you will see the results (will be saved in the file 'attack.txt').
 
 ## Test the DynaMO
 
-Use the file in the DynaMO/DynaMO_build to replace the files in the ModelObfuscator's source projects. It applies our DynaMO algorithm. Then, redo the test process in the last section to see the defending performance.
+### 0. Go back to the ModelObfuscator directory
+
+### 1. Use the file in the DynaMO/DynaMO_build to replace the files in the ModelObfuscator's source projects. It applies our DynaMO algorithm.
+
+```
+cp../DynaMO_build/model_parser.py ./
+cp../DynaMO_build/obfuscation.py ./
+cp../DynaMO_build/ObfOptions.cc ./tfl_source_file
+```
+
+### 2. Then, redo the test process in the last section to see the defending performance.
+
+```
+cd pin
+bash deobf.sh
+```
