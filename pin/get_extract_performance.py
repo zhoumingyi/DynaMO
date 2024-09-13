@@ -137,9 +137,11 @@ def are_lists_equal(list1, list2):
         error += np.max(np.abs((arr1 - arr2)))
 
     if error_sign:
-        return False, error/len(list1)/max(np.max(np.abs(arr1[0])), np.max(np.abs(arr1[0])))
+        # return False, error/len(list1)/max(np.max(np.abs(arr1[0])), np.max(np.abs(arr1[1])))
+        return False, error/len(list1)
     else:
-        return True, error/len(list1)/max(np.max(np.abs(arr1[0])), np.max(np.abs(arr1[0])))
+        # return True, error/len(list1)/max(np.max(np.abs(arr1[0])), np.max(np.abs(arr1[1])))
+        return True, error/len(list1)
 
 
 model_path = '../tflite_model/'
