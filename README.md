@@ -130,7 +130,7 @@ tar -zxvf ~/pin-3.30-98830-g1d7b601b3-gcc-linux.tar.gz
 Copy some essential files to the ModelObfuscator project
 
 ```
-cp ../other_build/* ./
+cp -r ../other_build/* ./
 ```
 
 ### 4. Build the DLModelParser (based on Pin)
