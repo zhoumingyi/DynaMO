@@ -7,8 +7,8 @@ Note that for testing our codes, you should have a Ubuntu desktop (RAM > 32 GB).
 ### 0. Preparation: download this project:
 
 ```
-git clone https://github.com/AnonymousAuthor000/code112.git
-cd code112
+git clone https://github.com/zhoumingyi/DynaMO.git
+cd DynaMO
 ```
 
 
