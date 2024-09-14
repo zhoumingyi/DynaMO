@@ -16,6 +16,8 @@ limitations under the License.
 #include <cstdint>
 #include <cstring>
 #include <memory>
+#include <stdlib.h>
+#include <float.h>
 
 #include "tensorflow/lite/c/builtin_op_data.h"
 #include "tensorflow/lite/c/common.h"
