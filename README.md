@@ -146,7 +146,7 @@ make all TARGET=intel64
 bash deobf.sh
 ```
 
-Then, you will see the results (will be saved in the file 'attack.txt'). 
+Then, it will automatically apply the Model Obfuscation to the test model and perform the instrumentation attacks for the obfuscated model. The attack performance can be found in the file 'attack.txt' in this folder. 
 
 ## Test the DynaMO
 
