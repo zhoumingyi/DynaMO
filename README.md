@@ -125,7 +125,7 @@ unzip the Intel Pin:
 tar -zxvf ~/pin-3.30-98830-g1d7b601b3-gcc-linux.tar.gz
 ```
 
-### 3. Install the Intel Pin:
+### 3. Copy the codes of DLModelParser:
 
 Copy some essential files to the ModelObfuscator project
 
