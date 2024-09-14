@@ -155,9 +155,9 @@ Then, it will automatically apply the Model Obfuscation to the test model and pe
 ### 1. Use the file in the DynaMO/DynaMO_build to replace the files in the ModelObfuscator's source projects. It applies our DynaMO algorithm.
 
 ```
-cp../DynaMO_build/model_parser.py ./
-cp../DynaMO_build/obfuscation.py ./
-cp../DynaMO_build/ObfOptions.cc ./tfl_source_file
+cp ../DynaMO_build/model_parser.py ./
+cp ../DynaMO_build/obfuscation.py ./
+cp ../DynaMO_build/ObfOptions.cc ./tfl_source_file
 ```
 
 ### 2. Then, redo the test process in the last section to see the defending performance.
